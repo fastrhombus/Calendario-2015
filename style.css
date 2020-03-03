@@ -2,9 +2,6 @@ body{
     background-color:rgb(149, 225, 255);
     font-family: sans-serif;
 }
-h1{
-    margin-bottom: 1%;
-}
 div{
     border: black 1px solid;
     background-color: lightyellow;
@@ -12,10 +9,32 @@ div{
     margin: 10px;
     width: 50%;
 }
-table{
-    margin-left: 40%;
-}
-caption.enero{
+table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.enero table {
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+  }
+  
+  div.enero caption {
+    font-style: oblique;
     font-weight: bold;
     letter-spacing: 5px;
-}
+  }
+  
+  div.enero td {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+  }
+  
+  div.enero th {
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
