@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(149, 225, 255);
+    font-family: sans-serif;
+}
+h1{
+    margin-bottom: 1%;
+}
+section{
+    border: black 1px solid;
+    background-color: lightyellow;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+table{
+    margin-left: 40%;
+}
+table.enero{
+
+}
+caption.enero{
+    font-weight: bold;
+}
